@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp">
+
+    <ImageView
+        android:id="@+id/signupLogo"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo1"
+        />
+
+    <TextView
+        android:id="@+id/welcometextSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/usernameLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/openSignUpPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to sign up"
+        android:textStyle="italic"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="right"/>
+
+
+
+</LinearLayout>
