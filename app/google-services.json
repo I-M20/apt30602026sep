@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1064953318561",
+    "project_id": "apt-itclub",
+    "storage_bucket": "apt-itclub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064953318561:android:b179fa4af0a2e1502bb4e0",
+        "android_client_info": {
+          "package_name": "com.example.app2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP3O6C0_5gatGJPwNXL4edPc6c7jAr4yM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
